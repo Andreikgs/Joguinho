@@ -1,25 +1,15 @@
-# Monster Hero
+# Jokenpô Balloon Clash
 
-Jogo rítmico para navegador com quatro teclas (`C`, `V`, `N`, `M`), chart original em dificuldade hard e placar local.
-
-## Executar
-
-Abra `index.html` no navegador ou, nesta pasta, execute:
-
-```bash
-python3 -m http.server 8000
-```
-
-Depois acesse `http://localhost:8000`.
-
-O projeto inclui **Heavy Battle 1**, de MintoDog, disponibilizada sob licença CC0 no OpenGameArt. A faixa tem 190 BPM e pode ser redistribuída com o jogo.
-
-Fonte: https://opengameart.org/content/heavy-battle-1
-
+Jogo vertical de sobrevivência feito com HTML, CSS e JavaScript puro.
 
 ## Controles
 
-- `C`, `V`, `N`, `M`: acertar notas
-- `Esc`: pausar/continuar
+- `1`: Pedra
+- `2`: Papel
+- `3`: Tesoura
 
-O ranking fica salvo no armazenamento local do navegador.
+Escolha a jogada que vence o balão inimigo mais próximo. A dificuldade aumenta com o tempo e a rodada termina quando um balão ultrapassa a linha de perigo.
+
+Cada vitória vale 150 pontos. Empatar desconta 50 pontos e perder uma disputa desconta 100 pontos.
+
+Se um lançamento chegar ao topo sem atingir um balão inimigo, o jogador perde 50 pontos.
